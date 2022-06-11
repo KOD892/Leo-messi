@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html {
+    color: #4b4453;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.container {
+    background-color: #d9f2fd;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+#img-div {
+    padding: 5px;
+    background-color: white;
+    margin: 0;
+}
+
+img {
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.timeline-header h2 {
+    color: #4b4453;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 5px 5px 10px;
+}
+
+.date {
+    font-weight: bolder;
+    color: rgb(37, 37, 37);
+    font-style: oblique;
+}
+
+.timeline-list {
+    padding: 0 20%;
+    line-height: 2em;
+    margin: 0 auto;
+}
+
+.timeline-list li {
+    margin: 20px 0;
+}
+
+.qoutes {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 20%;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: #005b44 !important;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+}
